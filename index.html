@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blobs Game </title>
+    <style>
+        #gameArea {
+            border: 4px solid #86A8E7 ;
+        }
+        body {
+            height: 100vh ;
+            background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+            text-align: center;
+            overflow: hidden; /* to hide scroll bar */
+            
+        }
+        h1, p {
+            font-family: 'Courier New', Courier, monospace;
+            color: #333;
+            margin-bottom: 0;
+        }
+        footer {
+            font-family: 'Courier New', Courier, monospace;
+            color: #333;    
+            font-weight: bold;        
+        }
+        footer > a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Blobs Moves </h1>
+    <p>Use Arrow Key to move around The Circle</p>
+    <canvas id="gameArea" width="700" height="500"></canvas>
+    <footer> <a href="https://github.com/Ariesan/BlobsGame">Coded</a> by <a href="https://ariesan.github.io/">Ariesan</a> </footer>
+    <script src="index.js"></script>
+</body>
+</html>
